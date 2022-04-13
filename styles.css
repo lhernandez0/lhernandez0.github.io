@@ -1,0 +1,17 @@
+/* Bootstrap Override */
+.navbar > *{
+  font-size:3vmin;
+}
+
+.navbar-collapse{
+  font-size:3vmin;
+}
+
+.navbar-brand{
+  font-size:3vmin;
+}
+
+/* General CSS */
+section{
+  padding-top: 50px;
+}
