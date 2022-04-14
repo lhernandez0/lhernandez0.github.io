@@ -21,6 +21,7 @@ body{
   height: 100vh;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+  scroll-snap-stop: always
 }
 section{
   scroll-snap-align: start;
