@@ -13,7 +13,17 @@
 
 /* General CSS */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Montserrat:wght@300;400;500;600&family=Roboto+Mono:wght@300;400;500&display=swap');
+body{
+  overflow: hidden;
+}
+.body-container{
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
 section{
+  scroll-snap-align: start;
   padding-top: 70px;
 }
 
@@ -21,8 +31,10 @@ section{
   background-color: var(--bs-dark);
   color: #fff;
   font-family: 'Lato';
+  justify-content: center;
 }
 
-.home .text-1{
-  color: #fff;
+.body-container::-webkit-scrollbar {
+  width: 0px;
+  /* background-color: #F5F5F5; */
 }
