@@ -1,14 +1,14 @@
 /* Bootstrap Override */
 .navbar > *{
-  font-size:3vmin;
+  font-size:3.5vmin;
 }
 
 .navbar-collapse{
-  font-size:3vmin;
+  font-size:3.5vmin;
 }
 
 .navbar-brand{
-  font-size:3vmin;
+  font-size:3.5vmin;
 }
 
 /* General CSS */
@@ -24,14 +24,20 @@ body{
 }
 section{
   scroll-snap-align: start;
-  padding-top: 70px;
+  padding-top: 10vh;
 }
 
 .home{
   background-color: var(--bs-dark);
   color: #fff;
   font-family: 'Lato';
-  justify-content: center;
+}
+
+.contact{
+  /* background-color: var(--bs-dark);
+  color: #fff;
+  font-family: 'Lato';
+  justify-content: center; */
 }
 
 .body-container::-webkit-scrollbar {
