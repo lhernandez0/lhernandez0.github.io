@@ -11,6 +11,15 @@
   font-size:3.5vmin;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-group {
+  margin-top: auto;
+}
+
 /* General CSS */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Montserrat:wght@300;400;500;600&family=Roboto+Mono:wght@300;400;500&display=swap');
 body{
