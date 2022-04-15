@@ -62,7 +62,7 @@
       <section id="work" class="work container-fluid">
         <div class="work-content container-fluid min-vh-100">
           <div class="text-center">
-            <h1>Projects</h1>
+            <h2>Projects</h2>
           </div>
           <div class="row my-5 align-item-center justify-content-center">
             <div class="col-8 col-lg-4 col-xl-3">
@@ -79,31 +79,49 @@
                 </div>
               </div>
             </div>
-            <div class="col-8 col-lg-4 col-xl-3">
-              <div class="card">
-                <div class="card-body text-center py-4">
-                  <h4 class="card-title">Some Project</h4>
-                  <p class="card-text">Something</p>
-                  <div class="btn-group" role="group" aria-label="Basic example">
-                    <a type="button" class="btn btn-secondary"><i class="fa-solid fa-globe"></i> Live</a>
-                  </div>
-                  <div class="btn-group" role="group" aria-label="Basic example">
-                    <a type="button" class="btn btn-secondary"><i class="fa-brands fa-github"></i> Code</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <!-- visuals here -->
           </div>
         </div>
       </section>
 
       <!-- contact section -->
+      <!-- Formspree for serverless email -->
       <section id="contact" class="contact container-fluid">
         <div class="contact-content container-fluid min-vh-100">
-          <div class="row">
-            Lorem ipsum dolor sit amet
+          <div class="text-center">
+            <h2>Contact Me</h2>
+          </div>
+          <div class="row my-5 align-item-center justify-content-center">
+            <div class="col-8 col-lg-6 col-xl-5">
+              <div class="contact-info">
+                <div class="content-item">
+                  <h4>Email:</h4>
+                  <p>luke.martin.hernandez@gmail.com</p>
+                </div>
+                <div class="content-item">
+                  <h4>Number:</h4>
+                  <p>09954553950</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-8 col-lg-6 col-xl-5">
+              <div class="contact-form">
+                <form action="https://formspree.io/f/myyondvz" method="POST">
+                  <div class="mb-3">
+                    <input type="hidden" name="_subject" value="Contact request from portfolio" />
+                    <input type="email" class="form-control" name="_replyto" placeholder="Your email" required>
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" name="message" placeholder="Type your message" required></textarea>
+                  </div>
+                  <!-- your other form fields go here -->
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
+
       </section>
 
     </div>
