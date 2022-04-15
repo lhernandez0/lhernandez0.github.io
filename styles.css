@@ -25,6 +25,9 @@
 body{
   overflow: hidden;
 }
+p{
+  font-size: 1.2rem;
+}
 .body-container{
   overflow-y: scroll;
   height: 100vh;
