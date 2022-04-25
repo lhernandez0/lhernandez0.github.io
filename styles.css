@@ -40,7 +40,7 @@ section{
 .home{
   background-color: var(--bs-dark);
   color: #fff;
-  font-family: 'Lato';
+  /* font-family: 'Lato'; */
 }
 
 .contact{
